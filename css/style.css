@@ -1,0 +1,193 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #1f2937;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: both;
+}
+
+.top,
+.about,
+.skills,
+.experience,
+.contact,
+.footer {
+    width: 900px;
+    margin: 0 auto 25px;
+    border-radius: 20px;
+}
+
+.top,
+.footer,
+h2 {
+    text-align: center;
+}
+
+.about,
+.skills,
+.experience,
+.contact {
+    background-color: white;
+    padding: 30px;
+}
+
+.top,
+.contact {
+    background-color: #1a4a7e;
+    color: white;
+}
+
+.top {
+    margin-top: 25px;
+    padding: 50px 20px;
+}
+
+.top h1 {
+    font-size: 46px;
+    margin-top: 0;
+}
+
+.top p {
+    color: #a9d3ff;
+    font-size: 20px;
+    margin-bottom: 28px;
+}
+
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 10px 22px;
+    margin: 5px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+h2 {
+    color: #0f3d6e;
+    font-size: 30px;
+    margin-top: 0;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #dbeafe;
+}
+
+.contact h2 {
+    color: white;
+    border-bottom-color: rgba(255, 255, 255, 0.3);
+}
+
+.profile-img {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 50%;
+    border: 5px solid #e8f1fb;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.about-text {
+    width: 580px;
+    float: left;
+    margin-left: 30px;
+}
+
+.intro {
+    font-size: 18px;
+    color: #4b5563;
+}
+
+.about strong {
+    color: #0a66b2;
+}
+
+.about .btn {
+    background-color: #0a66b2;
+}
+
+.skill {
+    width: 188px;
+    height: 180px;
+    float: left;
+    margin-right: 16px;
+    background-color: #f7faff;
+    border: 1px solid #e3edf9;
+    border-radius: 16px;
+    padding: 25px;
+}
+
+.skill h3 {
+    color: #0a66b2;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+.job {
+    background-color: #f8fafc;
+    border: 1px solid #e5e7eb;
+    border-left: 5px solid #0a66b2;
+    border-radius: 14px;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+}
+
+.job-img {
+    width: 90px;
+    height: 90px;
+    float: left;
+    background-color: white;
+    border: 1px solid #dbeafe;
+    border-radius: 14px;
+    padding: 8px;
+}
+
+.job-info {
+    float: left;
+    margin-left: 20px;
+}
+
+.job-info h3,
+.job-info h4,
+.job-info p {
+    margin: 0 0 6px;
+}
+
+.job-info h3 {
+    font-size: 20px;
+}
+
+.job-info h4 {
+    color: #0a66b2;
+    font-size: 17px;
+}
+
+.job-info p {
+    color: #4b5563;
+    font-size: 15px;
+}
+
+.job-desc {
+    clear: both;
+    padding-top: 15px;
+    margin: 0;
+}
+
+.footer {
+    background-color: #061a38;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer span {
+    color: #66b8ff;
+    font-weight: bold;
+}
